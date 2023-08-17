@@ -2,7 +2,7 @@
 
 
 In this site you will get information about different programming languages And also 
-if you have knowledge about any speicfic programming language then you can add that 
+if you have knowledge about any specific programming language then you can add that 
 information to this site by creating your account and clicking creating new post.
 
 This site is created using skills like html  , css, django, python.
