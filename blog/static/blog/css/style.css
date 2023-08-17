@@ -1,0 +1,108 @@
+body{
+  background: white;
+
+
+
+
+}
+
+h1{
+font-style:italic;
+text-align:center;
+
+font-size: 60px;
+
+color:blue;
+
+
+
+
+}
+
+nav {
+display:flex;
+position:fixed;
+ width: 100%;
+ background: lightblue;
+
+ margin-bottom:50px;
+
+ text-align: center;
+ left: 0;
+ top: 0;
+ right:0;
+
+}
+
+nav a {
+
+
+
+ padding: 10px 20px;
+ color: black;
+
+
+}
+
+nav a:hover {
+   color: black;
+background: yellow;
+
+
+
+}
+
+img{
+
+padding:12px
+margin-top: 30px;
+height:330px;
+width:400px;
+
+
+}
+
+
+.text{
+
+font-style: italic;
+font-size:30px;
+font-style:bold;
+padding:15px;
+
+}
+
+.form-group{
+
+font-size:35px;
+padding:12px;
+font-style: bold;
+font-style:italic;
+
+
+
+text-align: center;
+
+
+}
+
+.create{
+ padding:19px;
+ font-size:41px;
+ font-style:italic;
+ font-style-bold;
+
+
+
+}
+
+#bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+
+

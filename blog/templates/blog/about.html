@@ -1,0 +1,53 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static  'blog/css/style.css' %}">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<nav>
+
+     <a href="{% url 'home' %}"> HOME </a>
+     <a href="{% url 'create' %}"> CREATE NEW POST </a>
+     <a href="{% url 'about' %}"> ABOUT </a>
+     <a href="{% url 'contact' %}"> CONTACT </a>
+
+
+
+
+        {% if user.is_authenticated %}
+
+
+     <a href="{% url 'signout' %}"> LOGOUT </a>
+
+
+     {% else %}
+
+     <a href="{% url 'signin' %}"> LOGIN </a>
+     <a href="{% url 'signup' %}"> SIGNUP </a>
+
+
+
+     {% endif %}
+
+
+
+
+
+
+
+
+ </nav>
+
+<br>
+<br>
+<br>
+
+<h2> THIS IS ABOUT </h2>
+
+</body>
+</html>
